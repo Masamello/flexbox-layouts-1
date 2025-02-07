@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* upper nav */
+  nav {
+    padding: 32px 32px;
+    min-height: 80px;
+    background: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav img {
+    display: flex;
+    max-height: 48px;
+    background-color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  /* design */
+  nav ul li a:link,
+  nav ul li a:visited {
+    color: #00bfff;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(229, 145, 0);
+  }
+  
+  nav ul li a:active {
+    color: rgb(92, 229, 0);
+  }
+  
+  #current-page {
+    color: aquamarine;
+  }
+  
+  /*********************************** main ***********************************/
+  
+  main {
+    min-height: 700px;
+  }
+  /****************** index.html + floated left ******************/
+  .index-article-picture {
+    float: left;
+  }
+  
+  .index-article-picture .hamster-img {
+    margin: 16px 30px;
+    border: solid 2px #333;
+    max-width: 380px;
+  }
+  
+  .index-textbox {
+    margin: 16px;
+    border: solid 2px #bdbdbd;
+    padding: 16px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .index-textbox .post-title {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  
+  .index-textbox .post-info {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  
+  .index-textbox .post-paragraph {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .index-textbox .last-paragraph {
+    margin-bottom: 24px;
+  }
+  
+  /****************** about.html + floated right ******************/
+  .about-article-picture {
+    float: right;
+  }
+  
+  .about-article-picture .hamster-img {
+    margin: 16px 30px;
+    border: solid 2px #333;
+    max-width: 380px;
+  }
+  
+  .about-textbox {
+    margin: 16px;
+    border: solid 2px #bdbdbd;
+    padding: 16px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .about-textbox .post-title {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  
+  .about-textbox .post-info {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  
+  .about-textbox .post-paragraph {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .about-textbox .last-paragraph {
+    margin-bottom: 24px;
+  }
+  
+  /****************** services.html ******************/
+  .services-imagebox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 16px;
+    border: solid 2px #bdbdbd;
+    padding: 16px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .services-imagebox img {
+    border: 1px solid #bdbdbd;
+  }
+  
+  .dog1-image {
+    flex: 1;
+    min-width: 200px;
+    margin-left: 10px;
+  }
+  
+  .dog2-image {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 10px;
+  }
+  
+  .dog3-image {
+    flex: 100%;
+    margin: 0 10px;
+  }
+  
+  /****************** contact.html ******************/
+  
+  .main-flexbox {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 16px;
+    border: solid 2px #bdbdbd;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .left-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 20%;
+    border: solid 2px #bdbdbd;
+    background-color: #f5f5f5;
+  }
+  
+  .left-flexbox h2,
+  .left-flexbox p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .right-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+    border: solid 2px #bdbdbd;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .right-flexbox img {
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    height: 200px;
+    object-fit: cover;
+    border: solid 2px #bdbdbd;
+  }
+  
+  /*********************************** footer ***********************************/
+  footer {
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .ftnav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .ftnav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ftnav li {
+    display: flex;
+    margin: 0 20px;
+  }
+  
+  hr {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ftp {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
